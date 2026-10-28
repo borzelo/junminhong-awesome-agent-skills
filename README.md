@@ -53,6 +53,7 @@ This repository is not a package registry, a host for community skill files, a s
 
 #### Data & Analysis
 
+- [AuditorProcessual](https://github.com/lucianumm/AuditorProcessual) — Guides Brazilian legal case analysis, evidence tracing, official-source research, and labor-law petition drafting. `Type: Skill` · `Platforms: Cross-platform`
 - [credit-risk-model](https://github.com/W-Y-P/credit-risk-model) — Guides credit-risk model development, validation, reporting, and strategy analysis. `Type: Skill` · `Platforms: Cross-platform`
 - [KnowSift](https://github.com/nhppyqys/knowsift) — Compiles mixed research sources into certificate-backed knowledge documents that preserve evidence, scope, viewpoints, disputes, and rejected claims. `Type: Skill` · `Platforms: Codex, Claude Code`
 - [TrendCite](https://github.com/Abaco3300/trendcite) — Collects public Hacker News, GitHub, RSS/Atom, and Reddit signals and turns them into scored, source-traceable content opportunity briefs with confidence and counterpoints. `Type: Skill + CLI` · `Platforms: Claude Code`
@@ -63,6 +64,7 @@ This repository is not a package registry, a host for community skill files, a s
 - [essay-writer](https://github.com/shimellism-eng/essay-writer-editor/tree/main/skills/essay-writer) — Plans, drafts, researches, edits, and reviews essays while preserving voice, evidence, and uncertainty. `Type: Skill` · `Platforms: Codex, Agent Skills-compatible agents`
 - [Novel Writing](https://github.com/wgwtest/novel-writing) — Guides fiction planning, drafting, and revision with viewpoint, scene-causality, dialogue, and style-preservation checks. `Type: Skill` · `Platforms: Codex`
 - [publora-post-ideas](https://github.com/publora-team/publora-post-ideas) — Offers a choice of angles for a social post, drafts the selected one, and can schedule it through Publora. `Type: Skill` · `Platforms: Claude Code, Agent Skills-compatible agents`
+- [xLetter](https://github.com/coffeehc/xletter-skill) — Gives Agents a reusable mailbox for asynchronous text messages and public contact cards. `Type: Skill` · `Platforms: Codex, OpenClaw`
 
 #### Creative & Media
 
@@ -73,6 +75,7 @@ This repository is not a package registry, a host for community skill files, a s
 
 - [Agent Coordinator](https://github.com/alanhoff/agent-coordinator) — Coordinates complex work through a resumable local dependency graph, declared write scopes, reconciliation before retries, and repeatable closeout checks. `Type: Skill` · `Platforms: Codex`
 - [GFT Map](https://github.com/CoralLips/gft-map) — Turns linked Agent conversations into local, editable Doc and Map context that people can correct and later Agents can read. `Type: Skill` · `Platforms: Codex, Claude Code`
+- [Goal Instruction Writer](https://github.com/wu736139669/goal-instruction-writer) — Previews and drafts durable agent Goals with acceptance evidence, drift controls, proportional verification, and explicit stop conditions. `Type: Skill` · `Platforms: Codex`
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness/tree/main/skills/hyperconsciousness) — Discovers installed skills, local notes and encrypted knowledge through scoped grants. `Type: Skill` · `Platforms: Cross-platform`
 - [wiki](https://github.com/plasma-ai/wiki/tree/main/wiki/skills/wiki) — Creates and queries indexed Markdown knowledge bases with deterministic CLI support for agents. `Type: Skill` · `Platforms: Codex, Claude Code`
 
@@ -86,6 +89,7 @@ This repository is not a package registry, a host for community skill files, a s
 - [mblode/agent-skills](https://github.com/mblode/agent-skills) — Guides agents through UI and typography audits, code review, documentation, PR maintenance, and npm releases with 27 skills. `Type: Collection` · `Platforms: Claude Code, Codex`
 - [NotFair](https://github.com/nowork-studio/notfair-plugin) — Guides agents through SEO, GEO, paid-media, and analytics workflows using live marketing data and approval-gated changes. `Type: Collection` · `Platforms: Cross-platform`
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills) — Routes coding agents through 14 skills for planning, composing, editing, generating, and assembling videos. `Type: Collection` · `Platforms: Codex, Claude Code`
+- [Research Agent Skills](https://github.com/KalarisLabs/research-agent-skills) — Guides agents through the full academic research lifecycle: literature and systematic reviews, hypothesis generation, experimental design, field-specific data analysis, paper writing, citation verification, journal submission and peer review. `Type: Collection` · `Platforms: Cross-platform`
 - [Slashskills](https://github.com/tushaarmehtaa/tushar-skills) — Guides agents through software design, implementation, release checks, and documentation workflows. `Type: Collection` · `Platforms: Codex, Claude Code, Cursor`
 - [Solaris Dev Shop](https://github.com/Shaisolaris/solaris-dev-shop) — Routes a task to one accountable specialist skill and supplies that specialist's skill files. `Type: Collection` · `Platforms: Cross-platform`
 - [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) — A multi-domain collection covering agent orchestration, code review, evaluation, product, design, and growth workflows. `Type: Collection` · `Platforms: Cross-platform`
@@ -95,6 +99,8 @@ This repository is not a package registry, a host for community skill files, a s
 
 - [Agent QA](https://github.com/vostride/agent-qa) — Runs natural-language web and mobile QA workflows through a CLI, MCP server, and three evidence-oriented Agent Skills. `Type: CLI + MCP + Collection` · `Platforms: Codex, Agent Skills-compatible agents`
 - [PlaceCall](https://github.com/voygr-tech/placecall) — Places real phone calls to US businesses for bookings, appointments, inquiries and quotes through a hosted MCP server or REST API, and returns a structured outcome and transcript. `Type: Plugin + MCP + Skill` · `Platforms: Cross-platform`
+- [Divan](https://github.com/trugurpala/divan) — Guides Codex through natural-language software tasks, implementation, review, and verification. `Type: Plugin + Collection` · `Platforms: Codex`
+- [OpenSocrates](https://github.com/ParkerHwang/OpenSocrates) — Guides agents through checking assumptions, comparing options, and evaluating evidence with reusable reasoning procedures. `Type: Plugin + Skill` · `Platforms: Claude, Claude Code, Codex, Antigravity`
 - [rhost](https://github.com/starfield17/rhost) — Runs ordinary commands on SSH-reachable Linux hosts with local-like process semantics. `Type: CLI + Plugin + Skill` · `Platforms: Agent Skills-compatible agents`
 - [SandBase](https://github.com/sandbaseai/cli) — Connects AI agents to unified model and tool APIs through a local CLI-managed MCP bridge and Agent Skill. `Type: CLI + MCP + Skill` · `Platforms: Cross-platform`
 - [SkillPreflight](https://github.com/agent-contracts/skill-preflight) — Inspects third-party Agent Skills before installation and surfaces static risk findings, token estimates, and quality scores for agent-assisted review. `Type: CLI + Skill` · `Platforms: Cross-platform`
